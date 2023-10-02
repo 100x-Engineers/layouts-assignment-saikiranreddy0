@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100x</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+</head>
+<body class=" bg-twitter-neutral-1000 h-screen font-inter flex flex-col gap-3 pb-5 px-4">
+    <header class="flex justify-start gap-5">
+        <!-- back svg code  -->
+        <a href="./create-account-step-3.html">
+            <svg width="24" height="24" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg" >
+                <path d="M18 6L6 18" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6 6L18 18" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+        <div class="font-bold text-neutral-50 leading-normal text-base not-italic">
+            Step 4 of 4
+        </div>
+        
+    </header>
+            <!-- need to change padding of py-4 to 15px -->
+    <main class="flex flex-col gap-10">
+        <div class="flex flex-col gap-2">
+
+            <!-- create your account -->
+            <div class="text-neutral-50 text-2xl not-italic font-bold ">
+                You’ll need a password
+            </div>
+            <div class="text-sm not-italic leading-normal font-normal text-neutral-500">
+                Make sure it’s 8 characters or more
+            </div>
+           
+        </div>
+        <!-- verification code input layout -->
+        <div class="flex flex-col self-stretch flex-end gap-3">
+                <section>
+                <fieldset class=" py-4 px-3 pt-2  group flex items-center justify-between self-stretch border gap-2.5 border-solid rounded border-neutral-500 focus-within:border-twitter-blue">
+                 <legend class=" text-neutral-500 group-focus-within:text-twitter-blue text-xs font-medium ">
+                    <div class="px-1 ">
+                        Password
+                     </div>
+                 </legend>
+                <input type="password" placeholder="Password" class=" w-full text-neutral-50 text-xl font-normal bg-transparent focus:outline-none ">
+                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 12C2 12 5 5 12 5C19 5 22 12 22 12C22 12 19 19 12 19C5 19 2 12 2 12Z" stroke="#737373" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#737373" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+            </fieldset>
+                </section>
+                
+        </div>
+    </main>
+     <footer class="w-full fixed bottom-0  ">
+         <!-- create account button space-->
+          <!--the button needs to be adjusted properly -->
+            
+             <div class="flex flex-col w-full items-center pt-28 px-5 gap-2.5"> <!--padding here needs to be 20px -->
+                <a href="../2.home-feed/index.html" class="w-full">
+                    <button class="  py-3 px-6 gap-2.5 w-full rounded-65 font-bold text-base leading-normal not-italic text-center text-twitter-neutral-1000 bg-neutral-50 hover:bg-neutral-200 ">
+                        Next
+                    </button>
+                </a>
+     </footer>
+       
+    
+</body>
+</html>
