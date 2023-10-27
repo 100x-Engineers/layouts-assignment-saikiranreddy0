@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100x</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+</head>
+<body class=" bg-twitter-neutral-1000 h-screen font-inter flex flex-col gap-3 pb-5 px-4">
+    <header class="flex justify-start gap-5">
+        <!-- back svg code  -->
+        <a href="./create-account-step-2.html">
+            <svg width="24" height="24" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg" >
+                <path d="M18 6L6 18" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6 6L18 18" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+        <div class="font-bold text-neutral-50 leading-normal text-base not-italic">
+            Step 3 of 4
+        </div>
+        
+    </header>
+            <!-- need to change padding of py-4 to 15px -->
+    <main class="flex flex-col gap-10">
+        <div class="flex flex-col gap-2">
+
+            <!-- create your account -->
+            <div class="text-neutral-50 text-2xl not-italic font-bold ">
+                We sent you a code
+            </div>
+            <div class="text-sm not-italic leading-normal font-normal text-neutral-500">
+                Enter it below to verify janedoe@gmail.com
+            </div>
+           
+        </div>
+        <!-- verification code input layout -->
+        <div class="flex flex-col self-stretch flex-end gap-3">
+                <section>
+                <fieldset class=" py-4 px-3 pt-2  group flex items-center border gap-2.5 border-solid rounded border-neutral-500 focus-within:border-twitter-blue">
+                 <legend class=" text-neutral-500 group-focus-within:text-twitter-blue text-xs font-medium ">
+                    <div class="px-1 ">
+                        Verification code
+                     </div>
+                 </legend>
+                <input type="text" placeholder="Verification code" class=" w-full text-neutral-50 text-xl font-normal bg-transparent focus:outline-none ">
+                </fieldset>
+                </section>
+                <div class="text-sm flex justify-end font-normal not-italic leading-normal text-twitter-blue">
+                    Didn’t receive a code?
+                </div>
+        </div>
+    </main>
+     <footer class="fixed bottom-0 inset-x-0 ">
+         <!-- create account button space-->
+            
+                <a href="./create-account-step-4.html" class="w-full">
+                    <div class="flex flex-col items-center pb-5 px-5 gap-2.5">
+                        <button class=" w-full flex justify-center items-center py-3 px-6 gap-2.5 self-stretch rounded-65 font-bold text-base leading-normal not-italic text-center text-twitter-neutral-1000 bg-neutral-50 hover:bg-neutral-200 ">
+                        Next
+                        </button>
+                    </div> 
+                    
+                </a>
+     </footer>
+       
+    
+</body>
+</html>
